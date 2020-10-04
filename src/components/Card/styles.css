@@ -1,0 +1,49 @@
+p {
+  margin: 0;
+}
+
+.Card {
+  flex: 1;
+  border-radius: 15px;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.Card_img {
+  text-align: center;
+}
+
+.Card_types {
+  display: flex;
+  justify-content: center;    
+}
+
+.Card_type {
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  background: purple;
+  color: #fff;
+}
+
+.Card_name {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.Card_info {
+  margin-left: 10px;
+}
+
+.Card_data {
+  padding-bottom: 10px;
+}
+
+.Card_data .title {
+  font-weight: 700;
+}
